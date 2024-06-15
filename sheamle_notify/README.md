@@ -21,11 +21,3 @@ exports.notif:SendNotification({
 * ```type``` define where the notification will be draw ;
 * ```timeout``` define how much time (in ms) the notification is on screen ;
 * You can create your own notification 'type' by following the pattern in the code.
-
-## Updates
-No updates yet.
-
-## Known bugs
-* Doesn't deal with duplicate notifications (not as default notifications do) ;
-* The centerLeft and centerRight options have some issues ;
-* Notifications with different timeout will create issues.
